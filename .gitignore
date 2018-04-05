@@ -1,18 +1,47 @@
+# //--------------------------------------------------------------
+# // GITIGNORE
+# //--------------------------------------------------------------
+
+# //-----------------------------------------
+# // File Types
+# //-----------------------------------------
+*.7z
+*._*
+*.bak
+*.bz2
+*.cvs
+*.db
+*.dmg
+*.gz
+*.idea
+*.iso
+*.jar
 *.log
-wp-config.php
-wp-content/advanced-cache.php
-wp-content/backup-db/
-wp-content/backups/
-wp-content/blogs.dir/
-wp-content/cache/
-wp-content/upgrade/
-wp-content/uploads/
-wp-content/wp-cache-config.php
-wp-content/plugins/hello.php
+*.map
+*.pot
+*.rar
+*.sass-cache*
+*.svn
+*.swp
+*.tar
+*.tgz
+*.zip
+*~
+.DS_Store
+.htaccess
+.scssc
+error_log
 
-/.htaccess
-/license.txt
-/readme.html
-/sitemap.xml
-/sitemap.xml.gz
+# //-----------------------------------------
+# // Theme
+# //-----------------------------------------
+dist/
 
+
+# //-----------------------------------------
+# // NPM, NODE, Config
+# //-----------------------------------------
+codekit-config.json
+compass_app_log.txt
+node_modules/
+themes/base/.cache
