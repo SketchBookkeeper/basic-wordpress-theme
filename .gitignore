@@ -32,11 +32,6 @@
 .scssc
 error_log
 
-# //-----------------------------------------
-# // Theme
-# //-----------------------------------------
-dist/
-
 
 # //-----------------------------------------
 # // NPM, NODE, Config
@@ -44,4 +39,4 @@ dist/
 codekit-config.json
 compass_app_log.txt
 node_modules/
-themes/base/.cache
+.cache
